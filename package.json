@@ -1,0 +1,23 @@
+{
+  "name": "xcode-devteam-management",
+  "version": "1.0.0",
+  "description": "Base library for managing development teams in xcode",
+  "main": "developmentTeam.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhdeck/xcode-devteam-management.git"
+  },
+  "author": "Ray Deck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhdeck/xcode-devteam-management/issues"
+  },
+  "homepage": "https://github.com/rhdeck/xcode-devteam-management#readme",
+  "dependencies": {
+    "child-process-promise": "^2.2.1",
+    "inquirer": "^4.0.2"
+  }
+}
