@@ -1,6 +1,6 @@
 {
   "name": "xcode-devteam-management",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Base library for managing development teams in xcode",
   "main": "developmentTeam.js",
   "scripts": {
