@@ -2,9 +2,9 @@ const child_process = require("child_process");
 const fs = require("fs");
 const cpp = require("child-process-promise");
 const inquirer = require("inquirer");
-
+const Path = require("path");
 var homeinfo = {};
-const homefile = process.env.HOME + "/.rninfo";
+const homefile = Path.resolve(process.env.HOME, ".rninfo");
 if (fs.existsSync(homefile)) {
   homeinfo = JSON.parse(fs.readFileSync(homefile, "utf8"));
 } else {
